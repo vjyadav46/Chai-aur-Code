@@ -1,0 +1,16 @@
+const name= "Vijay Kumar"
+let village= "Kollur";
+var locality = "Lingampally"
+let pincode= 502300
+
+locality= "london"
+
+/*
+Dont use Var because it is has more scope and it will be update according to the givename
+EX if the same name given in others files  it will be update to that and present var details no longer give correct output
+So only use let and Const
+*/
+
+// Const is used to fix a value to a given variable EX:our PANCArd and Aadhaar Card per person
+// console.log(name);
+console.log([name, village, locality, pincode]);
